@@ -1,0 +1,11 @@
+a=int(input())
+b=int(input())
+for i in range(b):
+    print("  "*i,end="")
+    for j in range(b-i):
+        if i == 0 or j == 0 or j==b-i-1:
+            print(a,end=" ")
+            a=a+1
+        else:
+             print(" ",end=" ")
+    print()
