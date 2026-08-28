@@ -1,0 +1,8 @@
+s=input()
+n=int(input())
+count=0
+for i in s:
+    uni=ord(i)
+    if uni == n :
+        count+=1
+print(count)
